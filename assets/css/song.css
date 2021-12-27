@@ -1,0 +1,51 @@
+@-webkit-keyframes playRotate {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
+
+@keyframes playRotate {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
+
+.song {
+  margin-top: 10vh;
+  min-height: 50vh;
+  max-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.song img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.playing {
+  -webkit-animation: playRotate 6s infinite forwards linear;
+  animation: playRotate 6s infinite forwards linear;
+}
+
+@media screen and (max-width: 768px) {
+  .song img {
+    width: 50%;
+  }
+}
+
+.song h2 {
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.song h3 {
+  font-size: 1rem;
+}
