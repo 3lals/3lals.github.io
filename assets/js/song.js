@@ -25,7 +25,7 @@ let songs = [
   },
   {
     "id": 4,
-    "title": "Can You Hear Your Heart",
+    "title": "Can You Hear My Heart",
     "artist": "EPIK HIGH Ft. Lee Hi",
     "bpm": 190,
     "video_id": "F_9pZv0wn9Q",
