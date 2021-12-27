@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/song.css">
+  <link rel="stylesheet" href="assets/css/player.css">
+  <link rel="stylesheet" href="assets/css/library.css">
+  <title>Playlist</title>
+</head>
+
+<body>
+  <script src="assets/js/song.js"></script>
+  <div class="app">
+    <div class="nav">
+      <h1 class="nav-title">Vibes</h1>
+      <button id="library-link">Library</button>
+    </div>
+    <div class="song">
+      <img id="song-image" src="">
+      <h2 id="song-title"></h2>
+      <h3 id="song-artist"></h3>
+    </div>
+    <div class="player">
+      <div class="time-control">
+        <p id="current-time">00:00</p>
+        <div class="track">
+          <input type="range" id="progress">
+          <div class="animate-track"></div>
+        </div>
+        <p id="duration">00:00</p>
+      </div>
+      <div class="play-control">
+        <i onclick="prevSong()" class="fa fa-backward fa-2x" style="cursor: pointer;"></i>
+        <i onclick="toggleAudio()" id="music-icon" class="fa fa-play fa-2x" style="cursor: pointer;"></i>
+        <i onclick="nextSong()" class="fa fa-forward fa-2x" style="cursor: pointer;"></i>
+      </div>
+    </div>
+
+    <div class="library">
+      <h2>Library</h2>
+      <div class="library-list">
+      </div>
+    </div>
+    <div id="audio"></div>
+  </div>
+  <script src="assets/js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+
+</html>
