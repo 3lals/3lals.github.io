@@ -36,6 +36,7 @@ function resizeNav() {
 }
 
 // Library Songs
+songs.sort(() => 0.5 - Math.random());
 for(let i = 0; i < songs.length; i++){
   let libraryTag = `
   <div class="library-song" song-index="${i}">
