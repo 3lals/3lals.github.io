@@ -80,5 +80,26 @@ let songs = [
     "bpm": 83,
     "video_id": "SqQtqUPNH_M",
     "img_thumb": "https://s.mxmcdn.net/images-storage/albums/6/2/1/5/7/2/14275126_500_500.jpg"
+  },
+  {
+    "title": "Fukai Mori",
+    "artist": "Do As Infinity",
+    "bpm": 81,
+    "video_id": "qIoDWTF0qSo",
+    "img_thumb": "https://s.mxmcdn.net/images-storage/albums/6/8/0/5/2/8/26825086_500_500.jpg"
+  },
+  {
+    "title": "First Love",
+    "artist": "Utada Hikaru",
+    "bpm": 90,
+    "video_id": "Y33bWbodDjQ",
+    "img_thumb": "https://s.mxmcdn.net/images-storage/albums5/7/9/2/4/7/1/39174297_500_500.jpg"
+  },
+  {
+    "title": "Because of You",
+    "artist": "Huh Gak",
+    "bpm": 140,
+    "video_id": "ODpZV5KK2Xk",
+    "img_thumb": "https://s.mxmcdn.net/images-storage/albums5/5/9/9/1/0/2/46201995_500_500.jpg"
   }
 ]
