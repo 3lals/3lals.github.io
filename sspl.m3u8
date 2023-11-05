@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2048000,RESOLUTION=1280x720
-http://obshd.tv:25461/live/@Universesat/pmFFm7nqNaNg/1413.m3u8
+http://obshd.tv:25461/live/@Universesat/pmFFm7nqNaNg/1413.ts
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4096000,RESOLUTION=1920x1080
-http://obshd.tv:25461/live/@Universesat/pmFFm7nqNaNg/2103.m3u8
+http://obshd.tv:25461/live/@Universesat/pmFFm7nqNaNg/2103.ts
