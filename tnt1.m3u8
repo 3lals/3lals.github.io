@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXT-X-ALLOW-CACHE:YES
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=10000000
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:73:BF:36&stream=1110622&extension=m3u8&play_token=j9T5EaSzWy
+http://myf-tv.com:8080/play/live.php?mac=00:1A:79:BF:8F:D1&stream=97147&extension=m3u8&play_token=cOTaKUMNMR
