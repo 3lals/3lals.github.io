@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2048000,RESOLUTION=1280x720
+http://pxy.proxytx.cloud/play/live.php?mac=00:1a:79:94:c8:50&stream=993130&extension=m3u8&play_token=a1Vf3ScPvu
